@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root
+{
+    --main-color: #ff702a;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+
+    --big-font: 4em;
+    --h2-font: 2.20em;
+    --p-font: 0.9em;
+}
+
+*::selection
+{
+    background-color: var(--main-color);
+    color: #fff;
+}
